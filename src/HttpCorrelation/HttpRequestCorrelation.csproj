@@ -4,6 +4,12 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <Author>Gabriels Malta</Author>
+    <Repository>https://github.com/gabriels-malta/aspnet-core-middlewares</Repository>
+    <Version>1.0.0</Version>
+    <Description>This middleware adds/forwards a correlationId on HTTP request.</Description>
+    
   </PropertyGroup>
 
   <ItemGroup>
