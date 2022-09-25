@@ -7,10 +7,10 @@ internal class ServiceInfoMiddleware
     private const string ServiceNameKey = "service-name";
     private const string ServiceVersion = "service-version";
 
-    private readonly IServiceInfoConfiguration _serviceInfo;
+    private readonly IServiceInfo _serviceInfo;
     private readonly RequestDelegate _next;
 
-    internal ServiceInfoMiddleware(RequestDelegate next, IServiceInfoConfiguration serviceInfo)
+    internal ServiceInfoMiddleware(RequestDelegate next, IServiceInfo serviceInfo)
     {
         _next = next;
         _serviceInfo = serviceInfo;

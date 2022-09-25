@@ -1,6 +1,6 @@
 namespace ServiceInfo;
 
-public interface IServiceInfoConfiguration
+public interface IServiceInfo
 {
     public string ServiceName { get; }
     public (int major, int minor) ServiceVersion { get; }

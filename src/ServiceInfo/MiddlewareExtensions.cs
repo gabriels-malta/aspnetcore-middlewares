@@ -6,7 +6,7 @@ namespace ServiceInfo
 {
     public static class MiddlewareExtensions
     {
-        public static IApplicationBuilder UseServiceInfo(this IApplicationBuilder builder, Action<IServiceInfoConfiguration>? options = null)
+        public static IApplicationBuilder UseServiceInfo(this IApplicationBuilder builder, Action<IServiceInfo>? options = null)
         {
             var defaultOptions = new ServiceInfoDefault();
             options?.Invoke(defaultOptions);
