@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <Author>Gabriels Malta</Author>
+    <Repository>https://github.com/gabriels-malta/aspnet-core-middlewares</Repository>
+    <Version>1.0.0</Version>
+    <Description>This middleware adds service identifiers to the HTTP response headers.</Description>
+    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+  </ItemGroup>
+
+</Project>
